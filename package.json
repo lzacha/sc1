@@ -1,0 +1,19 @@
+{
+  "name": "sc1",
+  "version": "1.0.0",
+  "description": "first smart contract test",
+  "main": "index.js",
+  "scripts": {
+    "t": "truffle",
+    "test": "truffle test",
+    "testnet": "ganache-cli"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^4.0.6"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.0.3"
+  }
+}
